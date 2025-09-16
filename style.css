@@ -1,52 +1,61 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Povos Africanos</title>
-                <link rel="stylesheet" href="style.css">
-                </head>
-                <body>
-                    <header>
-                            <h1>Povos Africanos</h1>
-                                    <nav>
-                                                <ul>
-                                                                <li><a href="#historia">História</a></li>
-                                                                                <li><a href="#culturas">Culturas</a></li>
-                                                                                                <li><a href="#curiosidades">Curiosidades</a></li>
-                                                                                                            </ul>
-                                                                                                                    </nav>
-                                                                                                                        </header>
+* {
+        margin: 0;
+            padding: 0;
+                box-sizing: border-box;
+                }
 
-                                                                                                                            <main>
-                                                                                                                                    <section id="historia">
-                                                                                                                                                <h2>História</h2>
-                                                                                                                                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Mali_Empire_Map.svg/800px-Mali_Empire_Map.svg.png" alt="Império Mali" class="imagem">
-                                                                                                                                                                        <p>Os povos africanos têm uma rica história que remonta a milhares de anos. Civilizações como o Egito Antigo, Mali, Núbia e Axum desempenharam papéis cruciais na evolução da humanidade.</p>
-                                                                                                                                                                                </section>
+                body {
+                    font-family: Arial, sans-serif;
+                        background-color: #fdfdfd;
+                            color: #111;
+                                line-height: 1.6;
+                                    padding: 20px;
+                                    }
 
-                                                                                                                                                                                        <section id="culturas">
-                                                                                                                                                                                                    <h2>Culturas</h2>
-                                                                                                                                                                                                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Masai_people.jpg/800px-Masai_people.jpg" alt="Povo Maasai" class="imagem">
-                                                                                                                                                                                                                            <p>A África é um continente diverso com mais de 3.000 grupos étnicos. Cada um tem sua própria língua, arte, música e tradições.</p>
-                                                                                                                                                                                                                                    </section>
+                                    header {
+                                        text-align: center;
+                                            margin-bottom: 30px;
+                                            }
 
-                                                                                                                                                                                                                                            <section id="curiosidades">
-                                                                                                                                                                                                                                                        <h2>Curiosidades</h2>
-                                                                                                                                                                                                                                                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/African_Girl_Face_Paint.jpg/800px-African_Girl_Face_Paint.jpg" alt="Criança africana com pintura facial" class="imagem">
-                                                                                                                                                                                                                                                                                <ul>
-                                                                                                                                                                                                                                                                                                <li>O idioma mais falado na África é o árabe.</li>
-                                                                                                                                                                                                                                                                                                                <li>Existem mais de 2.000 línguas faladas no continente africano.</li>
-                                                                                                                                                                                                                                                                                                                                <li>O Império do Mali foi um dos mais ricos da história mundial.</li>
-                                                                                                                                                                                                                                                                                                                                            </ul>
-                                                                                                                                                                                                                                                                                                                                                    </section>
-                                                                                                                                                                                                                                                                                                                                                        </main>
+                                            h1 {
+                                                color: #000;
+                                                    font-size: 2em;
+                                                        text-transform: uppercase;
+                                                        }
 
-                                                                                                                                                                                                                                                                                                                                                            <footer>
-                                                                                                                                                                                                                                                                                                                                                                    <p>Feito com ❤️ por [Seu Nome] | <a href="https://github.com/seuusuario" target="_blank">GitHub</a></p>
-                                                                                                                                                                                                                                                                                                                                                                        </footer>
+                                                        .content {
+                                                            max-width: 800px;
+                                                                margin: 0 auto;
+                                                                }
 
-                                                                                                                                                                                                                                                                                                                                                                            <script src="script.js"></script>
-                                                                                                                                                                                                                                                                                                                                                                            </body>
-                                                                                                                                                                                                                                                                                                                                                                            </html>
+                                                                .content img {
+                                                                    width: 100%;
+                                                                        max-width: 600px;
+                                                                            display: block;
+                                                                                margin: 0 auto 20px auto;
+                                                                                    border: 3px solid #111;
+                                                                                    }
+
+                                                                                    .content p {
+                                                                                        margin-bottom: 15px;
+                                                                                            font-size: 1.1em;
+                                                                                            }
+
+                                                                                            blockquote {
+                                                                                                margin-top: 20px;
+                                                                                                    padding: 15px;
+                                                                                                        background: #111;
+                                                                                                            color: #fff;
+                                                                                                                font-style: italic;
+                                                                                                                    border-left: 5px solid #f00;
+                                                                                                                    }
+
+                                                                                                                    footer {
+                                                                                                                        text-align: center;
+                                                                                                                            margin-top: 40px;
+                                                                                                                                font-size: 0.9em;
+                                                                                                                                    color: #666;
+                                                                                                                                    }
+                                                                                                                                    
+}
                                                                                                                                                                                                                                                                                                                                                                             
